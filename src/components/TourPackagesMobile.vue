@@ -5,7 +5,9 @@
       v-slot="props"
       :values="tourPackages"
       :slidesPerView="3.2"
+      :slidesPerViewMobile="1"
       :spaceBetween="60"
+      :spaceBetweenMobile="20"
     >
       <TourPackage :tourPackage="props.value" />
     </slider>

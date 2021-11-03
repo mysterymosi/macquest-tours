@@ -4,7 +4,9 @@
       v-slot="props"
       :values="destinationList"
       :slidesPerView="3.2"
+      :slidesPerViewMobile="1.15"
       :spaceBetween="60"
+      :spaceBetweenMobile="20"
     >
       <DestinationCard :destination="props.value" />
     </slider>

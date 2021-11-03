@@ -25,12 +25,12 @@ export default {
     Swiper,
     SwiperSlide,
   },
-  props: ["values", "slidesPerView", "spaceBetween"],
+  props: ["values", "slidesPerView", "spaceBetween", "slidesPerViewMobile", "spaceBetweenMobile"],
   setup(props) {
     const breakpoints = ref({
       "@0.00": {
-        slidesPerView: 1,
-        spaceBetween: 20,
+        slidesPerView: props.slidesPerViewMobile,
+        spaceBetween: props.spaceBetweenMobile,
       },
       "@0.65": {
         slidesPerView: props.slidesPerView,
