@@ -1,0 +1,22 @@
+.modal {
+  .modal-dialog {
+    .modal-header {
+      border-bottom: 0px;
+      button.btn-close {
+        background: $orange url(./assets/images/close.png) no-repeat center
+          center;
+        opacity: 1;
+        border-radius: 50%;
+        font-size: 9px;
+      }
+    }
+    .modal-body {
+      padding-top: 0;
+      .tour-packages__sub-title{
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

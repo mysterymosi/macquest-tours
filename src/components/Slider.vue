@@ -1,0 +1,54 @@
+<template>
+  <swiper
+    :slides-per-view="slidesPerView"
+    :space-between="spaceBetween"
+    :breakpoints="breakpoints"
+    :navigation="true"
+    @swiper="onSwiper"
+    @slideChange="onSlideChange"
+  >
+    <swiper-slide v-for="value in values" :key="value.id">
+      <slot :value="value"></slot>
+    </swiper-slide>
+  </swiper>
+</template>
+
+<script>
+import SwiperCore, { Navigation } from 'swiper-new';
+import { Swiper, SwiperSlide } from "swiper-new/vue";
+import "swiper-new/swiper.min.css";
+import "swiper-new/components/navigation/navigation.min.css"
+import { ref } from "@vue/reactivity";
+SwiperCore.use([Navigation]);
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  props: ["values", "slidesPerView", "spaceBetween"],
+  setup(props) {
+    const breakpoints = ref({
+      "@0.00": {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      "@0.65": {
+        slidesPerView: props.slidesPerView,
+        spaceBetween: props.spaceBetween,
+      },
+    });
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log("slide change");
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+      breakpoints,
+      modules: [Navigation]
+    };
+  },
+};
+</script>

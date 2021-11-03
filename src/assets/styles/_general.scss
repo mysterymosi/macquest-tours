@@ -1,0 +1,60 @@
+p, h3, h4, ul {
+  margin-bottom: 0;
+}
+.padd-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-padding {
+  padding-top: 100px;
+}
+
+.section-margin-top {
+  margin-top: 100px;
+}
+
+.btn {
+  padding: 15px 62px;
+  font-family: $source-sans-pro;
+}
+
+.btn-primary {
+  background-color: $orange;
+  border-color: $orange;
+  &:hover {
+    background-color: $orange;
+    color: #fff;
+    border-color: $orange;
+  }
+}
+
+.btn-outline-primary {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+  }
+}
+
+.badge {
+  border-radius: 5.5px;
+  font-weight: 400;
+  font-size: 11px;
+  padding: 5px 15px;
+}
+.bg-success {
+  background-color: rgba(117, 255, 156, 0.3) !important;
+  color: #00b232 !important;
+}
+.bg-warning {
+  background-color: rgba(255, 65, 23, 0.17) !important;
+  color: #fc461e !important;
+}
+.bg-primary {
+  background-color: rgba(0, 26, 255, 0.15) !important;
+  color: #001AFF !important;
+}
