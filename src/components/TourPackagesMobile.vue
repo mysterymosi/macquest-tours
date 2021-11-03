@@ -27,7 +27,7 @@ export default {
     const tourPackages = ref([
       {
         id: "easterInObudu",
-        image: "/src/assets/images/packages/package-1.png",
+        image: "../assets/images/packages/package-1.png",
         name: "Easter in Obudu",
         description:
           "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
@@ -56,7 +56,7 @@ export default {
       },
       {
         id: "obuduHoneymoonGateway",
-        image: "/src/assets/images/packages/package-2.png",
+        image: "../assets/images/packages/package-2.png",
         name: "Obudu Honeymoon Gateway",
         description:
           "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
