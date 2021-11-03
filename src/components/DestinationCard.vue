@@ -1,6 +1,6 @@
 <template>
   <div class="destination card">
-    <img :src="destination.image" class="card-img-top" alt="..." />
+    <img :src="image" class="card-img-top" alt="..." />
     <span class="btn btn-primary">attraction</span>
     <div class="card-body py-4">
       <div class="d-flex justify-content-between align-items-center">
@@ -15,7 +15,22 @@
 </template>
 
 <script>
+import { ref } from "@vue/reactivity";
+import { onMounted } from "@vue/runtime-core";
+import importAssets from "../utils/importAssets";
 export default {
   props: ["destination"],
+  setup(props) {
+    const image = ref("");
+
+    onMounted(() => {
+      importAssets()
+        .modules[`../assets/images/${props.destination.image}.png`]()
+        .then((mod) => {
+          image.value = mod.default;
+        });
+    });
+    return { image };
+  },
 };
 </script>
