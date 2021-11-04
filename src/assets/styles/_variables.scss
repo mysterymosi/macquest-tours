@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 // colours
-$blue: blue;
-$red: red;
-$orange: #FE3E14;
-
+$orange: #fe3e14;
 
 // font
-$source-sans-pro: 'Source Sans Pro', sans-serif;
-$bebas-neue: 'Bebas Neue', cursive;
-$merriweather: 'Merriweather', serif;
+$source-sans-pro: "Source Sans Pro", sans-serif;
+$bebas-neue: "Bebas Neue", cursive;
+$merriweather: "Merriweather", serif;
 
-// breakpoints 
+// breakpoints
+$bp-desktop-md: 1280px;
+$bp-desktop-sm: 1024px;
 $bp-tablet: 768px;
+$bp-mobile-lg: 420px;
+$bp-mobile-md: 375px;

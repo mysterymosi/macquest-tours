@@ -1,0 +1,60 @@
+.vel-img-modal {
+  .vel-img-wrapper {
+    border: 8px solid #ffffff;
+  }
+  .vel-btns-wrapper {
+    .btn-close {
+      background: $orange url(./assets/images/close.png) no-repeat center center;
+      opacity: 1;
+      border-radius: 50%;
+      position: absolute;
+      top: 65px;
+      right: 555px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: $bp-desktop-md) {
+  .vel-img-modal {
+    .vel-btns-wrapper {
+      .btn-close {
+        right: 432px;
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-desktop-sm) {
+  .vel-img-modal {
+    .vel-btns-wrapper {
+      .btn-close {
+        top: 45px;
+        right: 340px;
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-mobile-lg) {
+  .vel-img-modal {
+    .vel-btns-wrapper {
+      .btn-close {
+        top: 45px;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-mobile-md) {
+  .vel-img-modal {
+    .vel-btns-wrapper {
+      .btn-close {
+        top: 65px;
+        right: 0;
+      }
+    }
+  }
+}

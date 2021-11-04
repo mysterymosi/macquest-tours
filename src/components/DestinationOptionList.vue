@@ -8,7 +8,7 @@
       :spaceBetween="60"
       :spaceBetweenMobile="20"
     >
-      <DestinationCard :destination="props.value" />
+      <DestinationCard :destination="props.value" :destinationList="destinationList" />
     </slider>
   </div>
 </template>

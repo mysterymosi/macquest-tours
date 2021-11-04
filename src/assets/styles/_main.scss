@@ -1,3 +1,11 @@
+//mixins
+@mixin styleInputFont {
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+}
+
+// main section styles
 section {
   .section-title {
     text-align: center;
@@ -47,6 +55,7 @@ section {
       .card-title {
         font-size: 17px;
         font-weight: 600;
+        margin-bottom: 0;
       }
       .card-text {
         font-size: 13px;
@@ -62,6 +71,10 @@ section {
     text-decoration: none;
     font-size: 14px;
     margin-top: 2.2rem;
+    i.ti-angle-double-right {
+      font-size: 10px;
+      margin:3px 0 0 5px;
+    }
   }
   .tour-packages__image {
     object-fit: contain;
@@ -73,10 +86,14 @@ section {
   }
   .tour-packages__title {
     font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 17px;
   }
   .tour-packages__sub-title {
     text-transform: capitalize;
     margin-top: 1.3rem;
+    font-weight: 600;
+    font-size: 20px;
   }
   .tour-packages__features {
     padding-left: 0;
@@ -115,6 +132,8 @@ section {
     z-index: 2;
     .cta__title {
       margin-bottom: 1.7rem;
+      font-weight: 600;
+      font-size: 40px;
     }
     p {
       margin-bottom: 2.5rem;
@@ -140,10 +159,15 @@ section {
     input {
       height: 47px;
       border: 1px solid #c4c4c4;
+      &::placeholder {
+        @include styleInputFont();
+      }
     }
-    label {
-      font-size: 13px;
-      font-weight: 400;
+    textarea {
+      resize: none;
+      &::placeholder {
+        @include styleInputFont();
+      }
     }
   }
   .contact-icon-bg {
@@ -179,6 +203,12 @@ section {
   .cta {
     .cta__details {
       width: 20rem;
+      .cta__title {
+        font-size: 23px;
+      }
+      p {
+        font-size: 14px;
+      }
       .cta__social-links {
         img {
           width: 23px;

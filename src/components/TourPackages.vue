@@ -1,5 +1,5 @@
 <template>
-  <section class="tour-packages">
+  <section id="packages" class="tour-packages">
     <div class="container">
       <div class="row">
         <div class="col-md-7 mx-auto">

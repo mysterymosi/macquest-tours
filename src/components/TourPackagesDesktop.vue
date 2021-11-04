@@ -1,6 +1,6 @@
 <template>
   <div class="d-none d-sm-none d-lg-block">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-6 d-flex justify-content-center">
         <img
           class="tour-packages__image"
@@ -30,7 +30,7 @@
             ><img class="me-2" src="../assets/images/location.png" alt="" />
             Obudu, CRS</span
           >
-          <h5 class="tour-packages__sub-title">features</h5>
+          <h5 class="tour-packages__sub-title mb-2">features</h5>
           <div class="row">
             <div class="col-md-6">
               <ul class="tour-packages__features">
@@ -65,7 +65,7 @@
               </ul>
             </div>
           </div>
-          <h5 class="tour-packages__sub-title">Facilities</h5>
+          <h5 class="tour-packages__sub-title mb-2">Facilities</h5>
           <div class="row">
             <div class="col-md-6">
               <ul class="tour-packages__features">
@@ -95,7 +95,7 @@
       </div>
     </div>
 
-    <div class="row section-padding">
+    <div class="row align-items-center section-padding">
       <div class="col-md-6 d-flex justify-content-center">
         <div style="width: 500px">
           <h3 class="tour-packages__title">Obudu Honeymoon Gateway</h3>
@@ -118,7 +118,7 @@
             ><img class="me-2" src="../assets/images/location.png" alt="" />
             Obudu, CRS</span
           >
-          <h5 class="tour-packages__sub-title">features</h5>
+          <h5 class="tour-packages__sub-title mb-2">features</h5>
           <div class="row">
             <div class="col-md-6">
               <ul class="tour-packages__features">
@@ -158,7 +158,7 @@
               </ul>
             </div>
           </div>
-          <h5 class="tour-packages__sub-title">Facilities</h5>
+          <h5 class="tour-packages__sub-title mb-2">Facilities</h5>
           <div class="row">
             <div class="col-md-6">
               <ul class="tour-packages__features">

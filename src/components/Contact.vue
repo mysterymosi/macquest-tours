@@ -1,5 +1,5 @@
 <template>
-  <section class="contact padd-section">
+  <section id="contact" class="contact padd-section">
     <div class="container">
       <div class="row align-items-center">
         <ContactForm />

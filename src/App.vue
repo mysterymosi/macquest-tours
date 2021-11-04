@@ -13,10 +13,12 @@ import TheFooter from "./components/TheFooter.vue";
 <template>
   <TheHeader />
   <Banner />
-  <DestinationOptions />
-  <TourPackages />
-  <Cta />
-  <Contact />
+  <main>
+    <DestinationOptions />
+    <TourPackages />
+    <Cta />
+    <Contact />
+  </main>
   <TheFooter />
 </template>
 

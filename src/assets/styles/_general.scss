@@ -1,5 +1,12 @@
-p, h3, h4, ul {
+p,
+h3,
+h4,
+ul,
+h5 {
   margin-bottom: 0;
+}
+body {
+  font-family: $source-sans-pro;
 }
 .padd-section {
   padding-top: 100px;
@@ -44,7 +51,7 @@ p, h3, h4, ul {
   border-radius: 5.5px;
   font-weight: 400;
   font-size: 11px;
-  padding: 5px 15px;
+  padding: 6px 15px;
 }
 .bg-success {
   background-color: rgba(117, 255, 156, 0.3) !important;
@@ -56,5 +63,5 @@ p, h3, h4, ul {
 }
 .bg-primary {
   background-color: rgba(0, 26, 255, 0.15) !important;
-  color: #001AFF !important;
+  color: #001aff !important;
 }

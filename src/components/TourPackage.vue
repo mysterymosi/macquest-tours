@@ -41,7 +41,7 @@ export default {
 
     onMounted(() => {
       importAssets()
-        .modules[`../assets/images/${props.tourPackage.image}.png`]()
+        .packageImages[`../assets/images/packages/${props.tourPackage.image}.png`]()
         .then((mod) => {
           image.value = mod.default;
         });
