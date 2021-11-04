@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import DestinationCard from "./DestinationCard.vue";
-import Slider from "./Slider.vue";
+import DestinationCard from "../destinationOptions/DestinationCard.vue";
+import Slider from "../Slider.vue";
 import { ref } from "@vue/reactivity";
 export default {
   components: {

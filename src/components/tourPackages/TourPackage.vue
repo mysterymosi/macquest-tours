@@ -7,16 +7,16 @@
     </p>
     <div class="d-flex mb-3 align-items-center">
       <span class="badge bg-success text-dark me-3 py-2"
-        ><img class="me-2" src="../assets/images/user.png" alt="" /> &#8358;
+        ><img class="me-2" src="../../assets/images/user.png" alt="" /> &#8358;
         {{ tourPackage.price }}</span
       >
       <span class="badge bg-warning text-dark"
-        ><img class="me-2" src="../assets/images/calendar.png" alt="" />
+        ><img class="me-2" src="../../assets/images/calendar.png" alt="" />
         {{ tourPackage.date }}</span
       >
     </div>
     <span class="badge bg-primary text-dark"
-      ><img class="me-2" src="../assets/images/location.png" alt="" />
+      ><img class="me-2" src="../../assets/images/location.png" alt="" />
       {{ tourPackage.location }}</span
     >
 
@@ -33,7 +33,7 @@
 <script>
 import { ref } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
-import importAssets from "../utils/importAssets";
+import importAssets from "../../utils/importAssets";
 export default {
   props: ["tourPackage"],
   setup(props) {

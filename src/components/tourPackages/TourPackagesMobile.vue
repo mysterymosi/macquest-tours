@@ -16,9 +16,9 @@
 
 <script>
 import { ref } from "@vue/reactivity";
-import Modal from "./Modal.vue";
-import Slider from "./Slider.vue";
-import TourPackage from "./TourPackage.vue";
+import Modal from "../Modal.vue";
+import Slider from "../Slider.vue";
+import TourPackage from "../tourPackages/TourPackage.vue";
 export default {
   components: {
     Modal,

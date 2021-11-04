@@ -3,7 +3,7 @@
     <div class="row mb-4">
       <div class="col-md-4 col-4 d-flex justify-content-end align-items-center">
         <span class="contact-icon-bg me-5"
-          ><img src="../assets/images/phone-msg.png" alt=""
+          ><img src="../../assets/images/phone-msg.png" alt=""
         /></span>
       </div>
       <div class="col-md-8 col-8">
@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-md-4 col-4 d-flex justify-content-end align-items-center">
         <span class="contact-icon-bg me-5"
-          ><img src="../assets/images/contact-msg.png" alt=""
+          ><img src="../../assets/images/contact-msg.png" alt=""
         /></span>
       </div>
       <div class="col-md-8 col-8">

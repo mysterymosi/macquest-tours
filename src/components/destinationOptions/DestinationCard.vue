@@ -37,7 +37,7 @@
 <script>
 import { ref } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
-import importAssets from "../utils/importAssets";
+import importAssets from "../../utils/importAssets";
 import VueEasyLightbox from "vue-easy-lightbox";
 export default {
   components: {

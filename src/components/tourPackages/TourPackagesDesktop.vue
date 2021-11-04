@@ -4,7 +4,7 @@
       <div class="col-md-6 d-flex justify-content-center">
         <img
           class="tour-packages__image"
-          src="../assets/images/packages/package-1.png"
+          src="../../assets/images/packages/package-1.png"
           alt=""
         />
       </div>
@@ -18,16 +18,16 @@
           </p>
           <div class="d-flex mb-3 align-items-center">
             <span class="badge bg-success text-dark me-3 py-2"
-              ><img class="me-2" src="../assets/images/user.png" alt="" />
+              ><img class="me-2" src="../../assets/images/user.png" alt="" />
               &#8358; 90, 000</span
             >
             <span class="badge bg-warning text-dark"
-              ><img class="me-2" src="../assets/images/calendar.png" alt="" />
+              ><img class="me-2" src="../../assets/images/calendar.png" alt="" />
               2nd to 5th April 2021</span
             >
           </div>
           <span class="badge bg-primary text-dark"
-            ><img class="me-2" src="../assets/images/location.png" alt="" />
+            ><img class="me-2" src="../../assets/images/location.png" alt="" />
             Obudu, CRS</span
           >
           <h5 class="tour-packages__sub-title mb-2">features</h5>
@@ -35,19 +35,19 @@
             <div class="col-md-6">
               <ul class="tour-packages__features">
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Luxury
+                  <img src="../../assets/images/check.png" alt="" /> Luxury
                   Accomodation
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Transportation
+                  <img src="../../assets/images/check.png" alt="" /> Transportation
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Grand
+                  <img src="../../assets/images/check.png" alt="" /> Grand
                   Transport
                 </li>
-                <li><img src="../assets/images/check.png" alt="" /> Bonfire</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Bonfire</li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> 24/7
+                  <img src="../../assets/images/check.png" alt="" /> 24/7
                   Stewardship
                 </li>
               </ul>
@@ -55,13 +55,13 @@
             <div class="col-md-6">
               <ul class="tour-packages__features">
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Guided Tours
+                  <img src="../../assets/images/check.png" alt="" /> Guided Tours
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Facility Fees
+                  <img src="../../assets/images/check.png" alt="" /> Facility Fees
                   (Covered)
                 </li>
-                <li><img src="../assets/images/check.png" alt="" /> Snacks</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Snacks</li>
               </ul>
             </div>
           </div>
@@ -70,24 +70,24 @@
             <div class="col-md-6">
               <ul class="tour-packages__features">
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Cable Car
+                  <img src="../../assets/images/check.png" alt="" /> Cable Car
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Canopy Walkway
+                  <img src="../../assets/images/check.png" alt="" /> Canopy Walkway
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Bird Watching
+                  <img src="../../assets/images/check.png" alt="" /> Bird Watching
                 </li>
-                <li><img src="../assets/images/check.png" alt="" /> Gym</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Gym</li>
               </ul>
             </div>
             <div class="col-md-6">
               <ul class="tour-packages__features">
-                <li><img src="../assets/images/check.png" alt="" /> Grotto</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Grotto</li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Holy Mountain
+                  <img src="../../assets/images/check.png" alt="" /> Holy Mountain
                 </li>
-                <li><img src="../assets/images/check.png" alt="" /> Gym</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Gym</li>
               </ul>
             </div>
           </div>
@@ -106,16 +106,16 @@
           </p>
           <div class="d-flex mb-3 align-items-center">
             <span class="badge bg-success text-dark me-3 py-2"
-              ><img class="me-2" src="../assets/images/user.png" alt="" />
+              ><img class="me-2" src="../../assets/images/user.png" alt="" />
               &#8358; 300, 000</span
             >
             <span class="badge bg-warning text-dark"
-              ><img class="me-2" src="../assets/images/calendar.png" alt="" />
+              ><img class="me-2" src="../../assets/images/calendar.png" alt="" />
               March, April 2021</span
             >
           </div>
           <span class="badge bg-primary text-dark"
-            ><img class="me-2" src="../assets/images/location.png" alt="" />
+            ><img class="me-2" src="../../assets/images/location.png" alt="" />
             Obudu, CRS</span
           >
           <h5 class="tour-packages__sub-title mb-2">features</h5>
@@ -123,36 +123,36 @@
             <div class="col-md-6">
               <ul class="tour-packages__features">
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> 4 Nights, 5
+                  <img src="../../assets/images/check.png" alt="" /> 4 Nights, 5
                   Days
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Luxury
+                  <img src="../../assets/images/check.png" alt="" /> Luxury
                   Accommodation
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Daily Meals
+                  <img src="../../assets/images/check.png" alt="" /> Daily Meals
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Airport
+                  <img src="../../assets/images/check.png" alt="" /> Airport
                   Transfer
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Grand Tranport
+                  <img src="../../assets/images/check.png" alt="" /> Grand Tranport
                 </li>
               </ul>
             </div>
             <div class="col-md-6">
               <ul class="tour-packages__features">
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Guided Tours
+                  <img src="../../assets/images/check.png" alt="" /> Guided Tours
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Facility Fees
+                  <img src="../../assets/images/check.png" alt="" /> Facility Fees
                   (Covered)
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> 24/7
+                  <img src="../../assets/images/check.png" alt="" /> 24/7
                   Stewardship
                 </li>
               </ul>
@@ -163,24 +163,24 @@
             <div class="col-md-6">
               <ul class="tour-packages__features">
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Cable Car
+                  <img src="../../assets/images/check.png" alt="" /> Cable Car
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Canopy Walkway
+                  <img src="../../assets/images/check.png" alt="" /> Canopy Walkway
                 </li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Bird Watching
+                  <img src="../../assets/images/check.png" alt="" /> Bird Watching
                 </li>
-                <li><img src="../assets/images/check.png" alt="" /> Gym</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Gym</li>
               </ul>
             </div>
             <div class="col-md-6">
               <ul class="tour-packages__features">
-                <li><img src="../assets/images/check.png" alt="" /> Grotto</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Grotto</li>
                 <li>
-                  <img src="../assets/images/check.png" alt="" /> Holy Mountain
+                  <img src="../../assets/images/check.png" alt="" /> Holy Mountain
                 </li>
-                <li><img src="../assets/images/check.png" alt="" /> Gym</li>
+                <li><img src="../../assets/images/check.png" alt="" /> Gym</li>
               </ul>
             </div>
           </div>
@@ -189,7 +189,7 @@
       <div class="col-md-6 d-flex justify-content-center">
         <img
           class="tour-packages__image"
-          src="../assets/images/packages/package-2.png"
+          src="../../assets/images/packages/package-2.png"
           alt=""
         />
       </div>

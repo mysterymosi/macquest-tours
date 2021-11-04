@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import ContactForm from "./ContactForm.vue";
-import ContactInfo from "./ContactInfo.vue";
+import ContactForm from "../contact/ContactForm.vue";
+import ContactInfo from "../contact/ContactInfo.vue";
 export default {
   components: {
     ContactForm,
