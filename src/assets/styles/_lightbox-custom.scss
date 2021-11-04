@@ -41,19 +41,7 @@
   .vel-img-modal {
     .vel-btns-wrapper {
       .btn-close {
-        top: 45px;
-        right: 0;
-      }
-    }
-  }
-}
-
-@media (max-width: $bp-mobile-md) {
-  .vel-img-modal {
-    .vel-btns-wrapper {
-      .btn-close {
-        top: 65px;
-        right: 0;
+        display: none;
       }
     }
   }
