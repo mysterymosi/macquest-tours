@@ -4,8 +4,6 @@
     :space-between="spaceBetween"
     :breakpoints="breakpoints"
     :navigation="true"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
   >
     <swiper-slide v-for="value in values" :key="value.id">
       <slot :value="value"></slot>
@@ -37,15 +35,7 @@ export default {
         spaceBetween: props.spaceBetween,
       },
     });
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log("slide change");
-    };
     return {
-      onSwiper,
-      onSlideChange,
       breakpoints,
       modules: [Navigation]
     };
